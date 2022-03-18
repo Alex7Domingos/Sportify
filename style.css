@@ -19,7 +19,7 @@ body {
     border-bottom-right-radius: 10px;
 }
 
-#logo{
+#logo-sportify{
     width: 200px;
     padding: 0px;
 }
@@ -70,7 +70,7 @@ h5{
 
 
 .duracao {
-    width: 317px;
+    width: 100%;
     box-sizing: border-box;
     padding: 12px;
     display: flex;
@@ -78,7 +78,7 @@ h5{
 
 .barra {
     height: 3px;
-    width: 95%;
+    width: 100%;
     border: 2px solid black;
     display: flex;
     align-items: center;
@@ -125,4 +125,40 @@ progress {
     bottom: 50px;
     right: 50px;
     border-radius: 50%;
+}
+
+footer{
+    background-color: rgb(105, 105, 105);
+    margin-top: 20px;
+}
+
+#redes-sociais{
+    display: flex;
+    justify-content: center;
+}
+
+.icone{
+    padding: 10px;
+}
+
+#logo{
+   text-align: center;
+}
+
+#contato{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+@media screen and (max-width:700px){
+    footer{
+        width: 100%;
+    }
+
+    .container{
+        max-width: 100%;
+        margin-top: 0px;
+    }
 }
